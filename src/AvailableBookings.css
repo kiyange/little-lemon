@@ -1,0 +1,15 @@
+/* src/components/AvailableBookings.css */
+.available-bookings {
+    margin-top: 40px;
+  }
+  
+  .available-bookings ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .available-bookings li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  

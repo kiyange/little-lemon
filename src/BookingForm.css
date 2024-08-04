@@ -1,0 +1,22 @@
+/* src/components/BookingForm.css */
+.booking-form {
+    display: grid;
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .booking-form input,
+  .booking-form select,
+  .booking-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

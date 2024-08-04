@@ -1,19 +1,21 @@
-// Homepage.js
+// src/components/HomePage.js
 import React from 'react';
-import CallToAction from './CallToAction';
-//import Specials from './Specials';
-//import CustomersSay from './CustomersSay';
-//import Chicago from './Chicago';
+import { Link } from 'react-router-dom';
+import Header from './Header'; // Import the Header component
+import './HomePage.css'; // Import the CSS file
 
-function Homepage() {
+function HomePage() {
   return (
     <div>
-      <CallToAction />
-      {/* <Specials />
-      <CustomersSay />
-      <Chicago /> */}
+        
+      <Header />
+      <main className="homepage">
+        <h1>Welcome to Little Lemon</h1>
+        <p>Your favorite place to enjoy delicious meals.</p>
+        <Link to="/booking">Reserve a Table</Link>
+      </main>
     </div>
   );
 }
 
-export default Homepage;
+export default HomePage;
